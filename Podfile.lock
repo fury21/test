@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.11)
+  - SwiftyStoreKit (0.16.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+
+PODFILE CHECKSUM: 4a92434b682f31be30390309c6a28cdf80963428
+
+COCOAPODS: 1.12.1
