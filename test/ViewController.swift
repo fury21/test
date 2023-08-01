@@ -18,6 +18,15 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let vc = segue.destination as? Practic_sh_img else { return }
+            
+        if segue.identifier == "toFavorites" {
+            vc.practiceType = .favorites
+        } else if segue.identifier == "toMistakes" {
+            vc.practiceType = .errors
+        }
+    }
 
 }
 
